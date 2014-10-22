@@ -40,8 +40,11 @@ brew cask install transmit
 brew cask install inc
 brew cask install adobe-creative-cloud
 brew cask install mongohub
-
-
+brew cask install sonos
+brew cask install spotify
+brew cask install slack
+brew cask install mailbox
+brew cask install vlc
 
 #custom quicklooks
 brew cask install qlcolorcode
