@@ -8,61 +8,61 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 
 #configure homebrew
-brew update
-brew upgrade
-brew tap homebrew/versions
-brew tap phinze/homebrew-cask
+sudo brew update
+sudo brew upgrade
+sudo brew tap homebrew/versions
+sudo brew tap phinze/homebrew-cask
 
 
 #install cli apps
-brew install coreutils
-brew install git
-brew install vim
-brew install mackup
-brew install zsh
+sudo brew install coreutils
+sudo brew install git
+sudo brew install vim
+sudo brew install mackup
+sudo brew install zsh
 
 #install gui apps (with cask)
-brew cask install dropbox
-brew cask install firefox
-brew cask install flash
-brew cask install google-chrome
-brew cask install firefox
-brew cask install google-drive
-brew cask install hipchat
-brew cask install node
-brew cask install sequel-pro
-brew cask install sublime-text
-brew cask install harvest
-brew cask install vagrant
-brew cask install virtualbox
-brew cask install bee
-brew cask install transmit
-brew cask install inc
-brew cask install adobe-creative-cloud
-brew cask install mongohub
-brew cask install sonos
-brew cask install spotify
-brew cask install slack
-brew cask install mailbox
-brew cask install vlc
+sudo brew cask install dropbox
+sudo brew cask install firefox
+sudo brew cask install flash
+sudo brew cask install google-chrome
+sudo brew cask install firefox
+sudo brew cask install google-drive
+sudo brew cask install hipchat
+sudo brew cask install node
+sudo brew cask install sequel-pro
+sudo brew cask install sublime-text
+sudo brew cask install harvest
+sudo brew cask install vagrant
+sudo brew cask install virtualbox
+sudo brew cask install bee
+sudo brew cask install transmit
+sudo brew cask install inc
+sudo brew cask install adobe-creative-cloud
+sudo brew cask install mongohub
+sudo brew cask install sonos
+sudo brew cask install spotify
+sudo brew cask install slack
+sudo brew cask install mailbox
+sudo brew cask install vlc
 
 #custom quicklooks
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install qlprettypatch
-brew cask install quicklook-csv
-brew cask install betterzipql
-brew cask install webp-quicklook
-brew cask install suspicious-package
+sudo brew cask install qlcolorcode
+sudo brew cask install qlstephen
+sudo brew cask install qlmarkdown
+sudo brew cask install quicklook-json
+sudo brew cask install qlprettypatch
+sudo brew cask install quicklook-csv
+sudo brew cask install betterzipql
+sudo brew cask install webp-quicklook
+sudo brew cask install suspicious-package
 
 #link sublime for global 'sublime' command
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 
 
 #install vagrant-cachier (to speed up provisioning)
-vagrant plugin install vagrant-hostmanager
+sudo vagrant plugin install vagrant-hostmanager
 sudo npm install -g yeoman
 
 sudo npm install -g francisbond/generator-francis-craft
