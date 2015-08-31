@@ -42,6 +42,7 @@ sudo brew cask install chromecast
 sudo brew cask install garmin-express
 sudo brew cask install gopro-studio
 sudo brew cask install skype
+sudo brew cask install iterm2
 
 
 
