@@ -37,6 +37,15 @@ sudo brew cask install spotify
 sudo brew cask install vlc
 sudo brew cask install flux
 sudo brew cask install divvy
+sudo brew cask install sonos
+sudo brew cask install chromecast
+sudo brew cask install garmin-express
+sudo brew cask install gopro-studio
+sudo brew cask install skype
+
+
+
+
 
 
 #custom quicklooks
