@@ -26,32 +26,19 @@ sudo brew cask install dropbox
 sudo brew cask install firefox
 sudo brew cask install flash
 sudo brew cask install google-chrome
-sudo brew cask install firefox
 sudo brew cask install google-drive
-sudo brew cask install hipchat
+sudo brew cask install slack
 sudo brew cask install node
-sudo brew cask install sequel-pro
 sudo brew cask install sublime-text
-sudo brew cask install harvest
 sudo brew cask install vagrant
 sudo brew cask install virtualbox
-sudo brew cask install bee
-sudo brew cask install transmit
-sudo brew cask install inc
 sudo brew cask install adobe-creative-cloud
-sudo brew cask install mongohub
-sudo brew cask install sonos
 sudo brew cask install spotify
-sudo brew cask install slack
-sudo brew cask install mailbox
 sudo brew cask install vlc
+sudo brew cask install flux
+
 
 #custom quicklooks
-sudo brew cask install qlcolorcode
-sudo brew cask install qlstephen
-sudo brew cask install qlmarkdown
-sudo brew cask install quicklook-json
-sudo brew cask install qlprettypatch
 sudo brew cask install quicklook-csv
 sudo brew cask install betterzipql
 sudo brew cask install webp-quicklook
@@ -63,9 +50,8 @@ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/lo
 
 #install vagrant-cachier (to speed up provisioning)
 sudo vagrant plugin install vagrant-hostmanager
-sudo npm install -g yeoman
+sudo npm i -g yo bower gulp
 
-sudo npm install -g francisbond/generator-francis-craft
-sudo gem install sass
-sudo gem install hologram
+sudo npm install -g angusfretwell/generator-craftsman
+
 
