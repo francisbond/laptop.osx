@@ -36,6 +36,7 @@ sudo brew cask install adobe-creative-cloud
 sudo brew cask install spotify
 sudo brew cask install vlc
 sudo brew cask install flux
+sudo brew cask install divvy
 
 
 #custom quicklooks
